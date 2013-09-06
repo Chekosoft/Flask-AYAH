@@ -1,3 +1,5 @@
+### encoding: utf-8 ###
+
 import ayah
 
 from flask import current_app, Markup
