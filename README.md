@@ -31,6 +31,11 @@ How to Use
         
         ayah = AreYouAHuman(app)
 
+or
+
+        ayah = AreYouAHuman()
+        ayah.init_app(app)
+
 6. On your templates, you can use the `ayah_get_publisher_html()` helper to integrate AYAH on your forms.
     
         <form>
