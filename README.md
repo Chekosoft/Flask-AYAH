@@ -30,6 +30,9 @@ How to Use
 5. Initialize an AreYouAHuman object, passing the Flask app object.
         
         ayah = AreYouAHuman(app)
+or
+        ayah = AreYouAHuman()
+        ayah.init_app(app)
 
 6. On your templates, you can use the `ayah_get_publisher_html()` helper to integrate AYAH on your forms.
     
